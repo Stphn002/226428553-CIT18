@@ -1,4 +1,3 @@
-// Dark Mode Toggle
 const toggleBtn = document.getElementById('dark-mode-toggle');
 const body = document.body;
 
@@ -19,7 +18,6 @@ experiences.forEach(exp => {
   timeline.appendChild(div);
 });
 
-// Form Validation
 function validateForm() {
   const name = document.getElementById('name').value;
   const email = document.getElementById('email').value;
@@ -31,5 +29,5 @@ function validateForm() {
   }
 
   alert("Message sent successfully!");
-  return false; // Prevent actual form submission for demonstration purposes
+  return false; 
 }
