@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technical Documentation</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <div class="mainbody">
+    <nav id="navbar">
+      <header>Documentation</header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li><a class="nav-link" href="#What_is_HTML">What is HTML</a></li>
+        <li><a class="nav-link" href="#What_is_CSS">What is CSS</a></li>
+        <li><a class="nav-link" href="#What_is_JavaScript">What is JavaScript</a></li>
+        <li><a class="nav-link" href="#References">References</a></li>
+      </ul>
+    </nav>
+
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <article>
+          <p>The WorldWideWeb (WWW or simply the web) is a global network of interconnected documents and resources,
+            accessible via the internet. It was invented by Sir Tim Berners-Lee in the late 1980s, and it revolutionized
+            the way information is accessed an shared worldwide. The web encompasses a vast array of content, inlcuding
+            web pages, images, videos, audio files, and more, all accessible through hyperlinks.</p>
+          <p>HTML (Hypertext Markup Language), CSS (Cascading Style Sheets), and JavaScript are foundational
+            technologies of the World Wide Web, each playing a crucial role in its operation and functionality.</p>
+          <ul>
+            <li>HTML - Backbone of web pages</li>
+            <li>CSS - Enhances the presentaion of HTML elements</li>
+            <li>JavaScript - Adds interactivity and dynamic behavior to web pages</li>
+          </ul>
+          <p>Together, these three form the cornerstone of web development, enabling developers to create engaging,
+            interactive, and user-friendly web experiences. By leveraging these technologies, individuals and
+            organizations can publish content, share information, conduct business, and connect with users worldwide
+            through the World Wide Web.</p>
+        </article>
+      </section>
+
+      <section class="main-section" id="What_is_HTML">
+        <header>What is HTML</header>
+        <article>
+          <p>HTML, stands for Hypertext Markup Language, is the standard markup language used to create and structure
+            content on the World Wide Web. It consists of a series of elements or tags that define the different parts
+            of a web page, such as headings, paragpraphs, links, images, forms, and more. These elements are enclosed
+            within angle brackets, and most come in pairs - an opening tag and a closing tag - although some tags are
+            self-closing.</p>
+          <p>HTML provides the basic structure and semantics for web documents, allowing browsers to interpret and
+            display the content correctly. It descirbes the hierarchy and organization of content, enabling users and
+            browsers to understand the relationship between different elements on a web page. Additionally, HTML
+            supports the inclusion of other types of media, such as audio, video, and interactive elements, making it
+            versatile language for building various types of web content.</p>
+          <p><strong>Example of a simple HTML document structure:</strong></p>
+          <center><img src="https://media.geeksforgeeks.org/wp-content/uploads/20210401153104/htmlstrc.PNG"></center>
+          <p><strong>HTML enables developers to implement features like:</strong></p>
+          <ul>
+            <li><strong>Structure</strong> - Provides a structured way to organize content on a web page by using
+              elements such as headings, paragraphs, lists, tables, and forms. These elements define the layout and
+              heirarchy of information, making it easier for users and browsers to understand the content.</li>
+            <li><strong>Semaintics</strong> - They convey meaning about the content they enclose. For example: header,
+              footer, nav, article, and section. These elements provide context about the purpose and role of different
+              sections within a web page, improving accessibility and search engine optimization (SEO).</li>
+            <li><strong>hyperlinks</strong> - HTML supports hyperlinks, which allows users to navigate between different
+              web pages and resources by clicking on a text or image.</li>
+            <li><strong>Multimedia</strong> - HTML enables the integration of multimedia content such us images, videos,
+              and audio files into web pages.</li>
+            <li><strong>Forms</strong> - HTML provides form elements for collection of user input on web pages, These
+              forms enables user to submit data such as text, numbers, and files uploads, to web servers for processing.
+            </li>
+            <li><strong>Integration with CSS and JavaScript</strong> - HTML seamlessly integrates with CSS and
+              JavaScript to enhance the presentation and interactivity of web pages.</li>
+          </ul>
+          <p>Overall, HTML provides a versatile and standardized way to structure and present content on the web,
+            facilitating the creation of interactive and accessible web experiences for users worldwide.</p>
+        </article>
+      </section>
+
+      <section class="main-section" id="What_is_CSS">
+        <header>What is CSS</header>
+        <article>
+          <p>CSS, or Cascading Style Sheets, is a powerful language used in web development to control the presentation
+            and styling of HTML elements on a web page. It enables developers to define the visual appearance of
+            elements including layout, colors, fonts, spacing, and more. By separating the content of a web page from
+            its presentaion, CSS promotes cleaner and more maintanable code, allowing developers to make site-wide syle
+            changes efficiently.</p>
+          <p>CSS works by selecting HTML elements using selectors and applying styles to them through rules defined in
+            style sheets. Thes styles can be specified inline within HTML elements, embedded within the 'style' element
+            in HTML document, or linked from external CSS files. STyles can be targeted broadly to affect entire groups
+            of elements or specifically to target individual elements based on their attributes, classes, or IDs.</p>
+          <p><strong>Example of a simple CSS style:</strong></p>
+          <code>
+              body {
+                font-family: 'Arial', sans-serif;
+                background-color: #f4f4f4;
+            }
+            
+            h1 {
+                color: #333;
+            }
+            
+            nav ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+            
+            footer {
+                background-color: #333;
+                color: #fff;
+                text-align: center;
+                padding: 10px;
+            }
+            
+            </code>
+          <p><strong>CSS enables developers to implement features like:</strong></p>
+          <ul>
+            <li><strong>Selective Targeting</strong> - CSS allows developers to target specific HTML elements, classes,
+              IDs, attributes, or groups of elements using selectors.</li>
+            <li><strong>Styling Properties</strong> - CSS provides a widew range of styling properties that control
+              various aspects of the visual appearance of elemets like setting colors, fonts, text formats, margins,
+              paddings, borders, background, and more.</li>
+            <li><strong>Cascading</strong> - CSS employs a cascading heirarchy to determine the precendence of styles
+              when multiple rules apply to the same element.</li>
+            <li><strong>Responsive Design</strong> - Supports responsive web design techniques, allowing developers to
+              create layouts that adapt and respond to different screen sizes and devices.</li>
+            <li><strong>Flexibility and Control</strong> - CSS supports animation and transition effects, allowing
+              developers to create visually engaging and interactive user experience without relying on JavaScript.</li>
+          </ul>
+          <p>Overall, CSS empowers developers to create visually appealing, accessible and responsive web designs,
+            enhancing the user experience and usability if websites and web applications.</p>
+        </article>
+      </section>
+
+      <section class="main-section" id="What_is_JavaScript">
+        <header>What is JavaScript</header>
+        <article>
+          <p>JavaScript is a versatile programming language primarily used for creating interactive and dynamic web
+            content. As one of the core technologies of web alongside HTML anc CSS, JavaScript runs on the client side,
+            meaning, it executes within the user's web page, respond to user actions, and update content dynamically
+            without requiring a page refresh.</p>
+          <p>JavaScript capabilities extend beyond web development, as it's also used in various other environments such
+            as server-side development, mobile app development, and desktop application development. However, its
+            significance on the web lies in its ability to enhance the user experience through interactivity.</p>
+          <p><strong>Example of a simple JavaScript script:</strong></p>
+          <code>// Simple alert when the page loads
+              window.onload = function() {
+                  alert("Welcome to our website!");
+              }
+              
+              // Example of handling a button click
+              function displayMessage() {
+                  var message = "Button clicked!";
+                  console.log(message);
+                  alert(message);
+              }
+              </code>
+          <p><strong>JavaScript enables developers to implement features like:</strong></p>
+          <ul>
+            <li><strong>Client-Side Scripting</strong> - avaScript runs on the client side, meaning it executes within
+              the user's web browser. This enables JavaScript to manipulate the HTML and CSS of a web page, respond to
+              user actions, and update content dynamically without requiring a page refresh.</li>
+            <li><strong>Dynamic Typing</strong> - JavaScript is dynamically typed, meaning variables can hold values of
+              any data type without explicit declaration. This flexibility allows for rapid development and easy
+              adaptation to changing requirements.</li>
+            <li><strong>Functional Programming Features</strong> - JavaScript supports functional programming paradigms
+              such as first-class functions, higher-order functions, and closures. Functions can be passed as arguments
+              to other functions, returned from functions, or assigned to variables, allowing for elegant and concise
+              code.</li>
+            <li><strong>DOM Manipulation</strong> - JavaScript provides powerful APIs for interacting with the Document
+              Object Model (DOM), which represents the structure and content of a web page. Developers can manipulate
+              DOM elements, handle events, modify styles, and create interactive user interfaces dynamically using
+              JavaScript.</li>
+            <li><strong>Server-Side Development</strong> - With the introduction of Node.js, JS can now also be used for
+              server-side development. Node.js enables developers to build scalable and high-performance web servers
+              using JavaScript, facilitating full-stack development with a unified language and toolset.</li>
+          </ul>
+          <p>Overall, JavaScript's versatility, flexibility, and widespread adoption make it an essential tool for web
+            development, enabling developers to create interactive, responsive, and feature-rich web experiences for
+            users worldwide.</p>
+        </article>
+      </section>
+
+      <section class="main-section" id="References">
+        <header>References</header>
+        <article>
+          <p>The content of this Documentation are from our class lectures and activities this 2nd Semester in CC14 Web
+            Application Development.</p>
+          <p>Some content of this Documentation are from the following sources:</p>
+          <ul>
+            <li><a href="https://blog.hubspot.com/marketing/web-design-html-css-javascript">HubSpot Blog</a></li>
+            <li><a href="https://www.w3schools.com/">W3Schools</a></li>
+            <li><a
+                href="https://www.freecodecamp.org/news/html-css-and-javascript-explained-for-beginners/">freeCodeCamp</a>
+            </li>
+            <li><a
+                href="https://primusr.notion.site/Web-Application-Development-c213cf6dbd834f6f8bcc2d02746209db?p=62117ad4bbcd4e9a970545c0f5cfb65b&pm=s">Sir
+                Prim (SideNotes)</a></li>
+          </ul>
+          <p>Thank You!</p>
+        </article>
+      </section>
+    </main>
+  </div>
+</body>
+
+</html>
